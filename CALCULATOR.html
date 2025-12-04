@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <style>
+            body{
+                background-color: bisque;
+                margin: 0;
+                padding: 0;
+            }
+            table{
+                margin: 200px;
+                padding: 100px;
+                background-color: antiquewhite;
+                text-align: center;
+            }
+        </style>
+        <script>
+            function add()
+            {
+                let a=parseInt(document.getElementById("t1").value);
+                 let b=parseInt(document.getElementById("t2").value);
+                 let c=a+b;
+
+            document.getElementById("t3").value=c; 
+                //alert("GET OUT FROM HERE");     //GET THE ALERT MSG
+            }
+          function sub()
+            {
+                let a=parseInt(document.getElementById("t1").value);
+                 let b=parseInt(document.getElementById("t2").value);
+                 let c=a-b;
+
+                    document.getElementById("t3").value=c;
+            }
+                        function div()
+            {
+                let a=parseInt(document.getElementById("t1").value);
+                 let b=parseInt(document.getElementById("t2").value);
+                 let c=a/b;
+
+                    document.getElementById("t3").value=c;
+            }
+                        function mul()
+            {
+                let a=parseInt(document.getElementById("t1").value);
+                 let b=parseInt(document.getElementById("t2").value);
+                 let c=a*b;
+
+                document.getElementById("t3").value=c;
+                
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="background-color: brown; text-align: center;">SIMPLE CALCULATOR</h1>
+        <table>
+            <tr>
+        <td><label="text" name="1st number "> 1st number</label></td>
+       <td> <input type="text" placeholder="Enter value 1" id="t1"></td>
+        </tr>
+        <tr>
+        <td><label="text" name="2nd number" >2nd number</label></td>
+        <td><input type="text" placeholder="Enter value 2" id="t2"></td>
+        </tr>
+        <tr>
+        <td><label="text" name="">answer:</label>
+        <td><input type="text" placeholder="answer" id="t3"><br></td>
+        </tr>
+       <tr>
+        <td> <button onclick="add()">ADD</button></td>
+        <td> <button onclick="sub()">SUBRACT</button></td>
+         </tr>
+         <tr>
+            <td>
+          <button onclick="div()">DIVISION</button></td>
+          <td> <button onclick="mul()">MULTIPLICATION</button></td>
+          </tr>
+          </table>
+
+    </body>
+</html>

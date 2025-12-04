@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script>
+            let num=0;
+            let arr=["C:\Users\srini\OneDrive\Apps\Documents\MERN INTERNSHIP\exp_day_3\coffe_1.jpeg","C:\Users\srini\OneDrive\Apps\Documents\MERN INTERNSHIP\exp_day_3\night sky.jpg","C:\Users\srini\OneDrive\Apps\Documents\MERN INTERNSHIP\exp_day_3\s 2.jpg"]
+            function next(){
+                num++;
+                if(num>2)
+                    num=0;
+
+                let img=document.getElementById("im");
+                img.src=arr[num];              
+
+            }
+            function previous()
+            {
+                num--;
+                if(num<0)
+                    num=2;
+                let  img=document.getElementById("im");
+                img.src=arr[num];
+            }
+        </script>
+    </head>
+    <body>
+        <h1 style="background-color:antiquewhite; text-align: center;">MY GALLERY</h1>
+    </body>
+    <img src="C:\Users\srini\OneDrive\Pictures\s 2.jpg" height="90" width="60" id="im">
+    <button onclick="previous()">PREVIOUS </button>
+    <button onclick="next()">NEXT</button>
+    </body>
+</html>

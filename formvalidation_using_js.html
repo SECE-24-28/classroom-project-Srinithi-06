@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    </head>
+    <body id="main">
+        <form action="">
+            <p id="error" style="color: brown;"></p>
+            <label for="">   USER NAME</label>
+            <input type="text" id="us"></input>
+            <label for="" >MAIL</label>
+            <input type="mail" id="ma"></input>
+            <button type=" submit" id="sub">SUBMIT</button>
+        </form>
+        <script>
+            let er=document.getElementById("error");
+            let us=document.getElementById("us");
+            let ma=document.getElementById("ma");
+            let sub=document.getElementById("sub");
+            sub.addEventListener("click",(e)=>{
+                e.preventDefault();
+                if(us.value==""||ma.value=="")
+                    er.innerHTML="FEILD SHOULD NOT BE EMPTY";
+                else{
+                    alert("LOGIN SUCCESSFULL")
+                    us.value="";
+                    ma.value="";
+                    er.innerHTML="";
+                }
+            }
+
+        )
+        </script>
+    </body>
+</html>

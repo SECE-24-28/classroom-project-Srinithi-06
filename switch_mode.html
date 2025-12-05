@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <script>
+            function press()
+            {
+            let b=document.getElementById("main");
+            let h1=document.getElementById("h1");
+            let bt=document.getElementById("bt");
+           
+          if(b.style.backgroundColor=="black"){
+            b.style.padding="50";
+            h1.style.color="black";
+            b.style.backgroundColor="white";
+             h1.innerHTML="LIGHT MODE";
+            bt.style.color="black";
+          }
+          else{
+            h1.style.color="white";
+            b.style.backgroundColor="black";
+             h1.innerHTML="DARK MODE";
+            bt.style.color="black";
+          }
+          }
+           // let d=document.getElementById("")
+           
+            
+
+        </script>
+
+    </head>
+    <body id="main" style="background-color:white; ">
+        <h1 id="h1">LIGHT MODE</h1>
+        
+    <button id="bt" onclick="press()">switch mode</button>
+    </body>
+</html>

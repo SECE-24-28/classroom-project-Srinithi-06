@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Login page</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            body{
+                text-align:center;
+                
+
+            }
+            .outer
+            {
+                display:flex;
+                justify-content: center;
+                background-color:beige;
+                height: 50vh;
+                padding: 20px;
+            
+            }
+
+            table td
+            {
+                padding: 10px;
+            }            
+            .container
+            {
+                display:flex;
+                flex-direction: column;
+                flex-wrap: wrap;
+                gap:20px;
+                justify-content: center;
+                align-items: center;                          
+                            
+            }         
+            
+            .box
+            {
+                background-color: lightgray;
+                text-align: left;
+                height:20vh;
+                padding: 20px;
+                width:100%;
+                border-radius: 16px;
+               
+            }
+            </style>
+
+    </head>
+    <body>
+        <h1 style="background-color: antiquewhite;">WELCOME TO YOU LOGIN PAGE </h1>
+        <h2 style="background-color: cadetblue;">ENTER YOU DETAILS</h2>
+        <div class="outer">
+        <div class="container">
+            <div class="box">
+                <form  action="sus_msg.html">
+                <table>
+                    <tr>
+                        <td>NAME</td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td>EMAIL</td>
+                       <td><input type="email" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>PASSWORD</td>
+                        <td><input type="password" name="password" required></td>
+                    </tr>
+                <tr>
+                <td><input type="submit" value="SUBMIT"></td>
+                <td><input type="reset" value="RESET"></td>
+                </tr>
+                </table>
+                </form>
+            </div>
+        </div>
+        </div>
+    </body>
+</html>
+        

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Counter App</title>
+</head>
+<body>
+
+<h2>Counter App</h2>
+
+<h1 id="count">0</h1>
+
+<button onclick="increase()">Increase</button>
+<button onclick="decrease()">Decrease</button>
+<button onclick="reset()">Reset</button>
+
+<script>
+let c = 0;
+
+function increase() {
+    c++;
+    document.getElementById("count").innerText = c;
+}
+
+function decrease() {
+    c--;
+    document.getElementById("count").innerText = c;
+}
+
+function reset() {
+    c = 0;
+    document.getElementById("count").innerText = c;
+}
+</script>
+
+</body>
+</html>

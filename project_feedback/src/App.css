@@ -1,0 +1,106 @@
+/* --- MAIN PAGE LAYOUT --- */
+/* CENTER THE ENTIRE PAGE */
+body, #root {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  background-color:  linear-gradient(to bottom right, #fdfbfb, #f5f3ff);
+
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+}
+
+/* MAIN CENTER CONTAINER */
+.page-container {
+  width: 100%;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+/* --- SEARCH BAR --- */
+.search-box {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-box input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 5px;
+}
+
+/* --- ADD POST FORM --- */
+.addpost-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 15px;
+  margin: 25px 0;
+}
+
+.addpost-container input {
+  width: 200px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+
+.addpost-container textarea {
+  width: 300px;
+  height: 70px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  resize: none;
+}
+
+.addpost-container button {
+  padding: 12px 20px;
+  background-color: #0077ff;
+  color: white;
+  font-size: 16px;
+  border:#0077ff;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.addpost-container button:hover {
+  background-color: #005fcc;
+}
+
+/* --- POST CARD STYLING --- */
+.post-card {
+  background: white;
+  padding: 20px;
+  margin: 25px auto;
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.post-title {
+  font-size: 22px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.post-date {
+  text-align: center;
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.post-body {
+  font-size: 16px;
+  text-align: center;
+  line-height: 1.6;
+}

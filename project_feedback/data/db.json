@@ -1,0 +1,52 @@
+{
+  "feedback": [
+    {
+      "id": "1",
+      "title": "Third Post",
+      "datetime": "Apr 10,2024 10:43am",
+      "body": "Third post shows the valid information"
+    },
+    {
+      "id": "2",
+      "title": "expert session Post",
+      "datetime": "dec 11,2025 10:15am",
+      "body": "The expert session went well and i learned many new things in this"
+    },
+    {
+      "id": "3",
+      "title": "friends",
+      "datetime": "dec 11,202410:15am",
+      "body": "i got many new friends"
+    },
+    {
+      "id": "4",
+      "title": "cbe",
+      "datetime": "Dec 11,2025 2:48:05 PM",
+      "body": "nice city"
+    },
+    {
+      "id": "5",
+      "title": "sureka",
+      "datetime": "Dec 11,2025 2:51:42 PM",
+      "body": "gud grl"
+    },
+    {
+      "id": "6",
+      "title": "sreemathi ",
+      "datetime": "Dec 11,2025 4:02:09 PM",
+      "body": "wore a black dress"
+    },
+    {
+      "id": 7,
+      "title": "night",
+      "datetime": "Dec 12,2025 1:06:05 AM",
+      "body": "too late"
+    },
+    {
+      "id": 8,
+      "title": "girls hostel",
+      "datetime": "Dec 12,2025 1:15:09 AM",
+      "body": "comparing to other college our college hostel is ok only\n"
+    }
+  ]
+}

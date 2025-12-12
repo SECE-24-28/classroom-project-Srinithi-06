@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>gallery</title>
+        
+        
+    </head>
+    <body>
+        <img src="twitter.jpg" height="300" width="300" id="i" >
+        <script>
+            let i=0;
+            let arr=["twitter.jpg","coffee.jpeg","whatsapp.png"];
+            function prev() 
+            {
+                i++;
+                if(i>=3)
+            {
+                i=0;
+            }
+let img=document.getElementById("i");
+                img.src=arr[i];
+            }setInterval(prev,2000);
+        </script>
+        
+        
+    </body>
+    </html>
